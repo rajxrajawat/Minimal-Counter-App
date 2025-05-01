@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Counter App</title>
+  <link rel="stylesheet" href="Style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Interactive Counter App</h1>
+
+    <div class="counter-box">
+      <button onclick="decrement()" class="counter-button">
+        <i class="fa-solid fa-minus"></i>
+      </button>
+      <span id="counter" class="counter-value">0</span>
+      <button onclick="increment()" class="counter-button">
+        <i class="fa-solid fa-plus"></i>
+      </button>
+    </div>
+
+    <p class="description">Simple and stylish counter using JavaScript and CSS</p>
+  </div>
+
+  <script src="Js.js"></script>
+</body>
+</html>
